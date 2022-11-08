@@ -6,7 +6,7 @@ import Card_Front from '../assets/images/bg-card-front.png'
 
 const Header = () => {
   return (
-    <div className="card h-52 bg-center bg-no-repeat bg-cover mb-12" style={{backgroundImage: `url(${MobileBG})`}}>
+    <div className="card h-52 bg-center bg-no-repeat bg-cover mb-12 md:bg-left md:h-screen md:w-[400px] relative" style={{backgroundImage: `url(${MobileBG})`}}>
     <div className="card-img-1 relative p-2">
       <img src={Card_Back} alt=""  className='w-64 absolute left-24 top-6'/>
       <span className='card-info absolute top-20 right-14 text-white text-sm'>

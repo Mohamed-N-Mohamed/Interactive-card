@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='py-12 px-10'>
+    <div className='py-12 px-10 md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2'>
       <div className="form-group flex flex-col justify-center items-center gap-4">
       <div className="form-inputs">
       <label className='text-[14px] tracking-[.10em] uppercase'>CardHolder Name</label>
@@ -29,7 +29,7 @@ const Form = () => {
 
       </div>
 
-      <button className='bg-Very-dark-violet text-white w-full py-4 border-none rounded hover:pointer'>Confirm</button>
+      <button className='bg-Very-dark-violet text-white w-full py-4 border-none rounded hover:pointer md:w-9/12'>Confirm</button>
 
 
       </div>
